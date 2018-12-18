@@ -1,6 +1,6 @@
 # Black Jack
 
-This is black jack, the game
+This is black jack the game made in java
 
 ## Rules of the game
 
