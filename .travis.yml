@@ -9,4 +9,4 @@ before_install:
 
 script:
   - mdl README.md
-  - mvn clean install
+  # - mvn clean install
