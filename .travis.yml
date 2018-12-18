@@ -1,11 +1,12 @@
 language: java
-sudo: false
+jdk: oraclejdk8
+
 before_install:
   - gem install mdl
 
-install:
-  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+# install:
+#   mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 script:
   - mdl README.md
-  - mvn clean verify
+  - mvn clean install
